@@ -1,0 +1,26 @@
+.grid{
+  width:  500px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: relative;
+}
+
+.point{
+  width: 1px;
+  height: 1px;
+  background-color: black;
+  transform: translate(0px, 0px);
+  position: absolute;
+}
+
+.ball{
+  height: 25px;
+  width: 25px;
+  background-color: rgb(45, 132, 132);
+  border-radius: 50%;
+  transform: translate(0px, 0px);
+  position: absolute;
+}
